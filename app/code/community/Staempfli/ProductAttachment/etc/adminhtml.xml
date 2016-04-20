@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <config>
     <acl>
+        <resources>
         <all>
             <title>Allow everything</title>
         </all>
-        <resources>
             <admin>
                 <children>
                     <productattachment translate="title" module="staempfli_productattachment">
