@@ -2,17 +2,9 @@
 <config>
     <acl>
         <resources>
-        <all>
-            <title>Allow everything</title>
-        </all>
-            <admin>
-                <children>
-                    <productattachment translate="title" module="staempfli_productattachment">
-                        <title>Product File Upload</title>
-                        <sort_order>1</sort_order>
-                    </productattachment>
-                </children>
-            </admin>
+        	<all>
+            	<title>Allow everything</title>
+        	</all>
         </resources>
     </acl>
 </config>

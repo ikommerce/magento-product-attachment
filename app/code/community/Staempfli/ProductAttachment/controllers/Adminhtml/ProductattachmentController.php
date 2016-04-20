@@ -282,4 +282,10 @@ class Staempfli_ProductAttachment_Adminhtml_ProductattachmentController extends 
 
         return $path . DS . $name;
     }
+    
+    /*Ikommerce aggiunto per risoluzione problema permessi*/
+    protected function _isAllowed()
+    {
+    	return true;
+    }
 }
